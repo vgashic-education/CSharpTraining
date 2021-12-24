@@ -9,7 +9,10 @@ namespace CS.AccesModifiers
         static void Main(string[] args)
         {
             UseAllPublic();
-            UseEncapsulation();
+
+            //UseEncapsulation();
+
+            //ProtectedIssue();
         }
 
 
@@ -51,6 +54,19 @@ namespace CS.AccesModifiers
             // cannot change activation invoice
             var invoice = new Encapsulation.Invoice("Fixed invoice", 50_000);
             //contract.ActivationInvoice = invoice;
+        }
+
+
+        private static void ProtectedIssue()
+        {
+            var bigContract = new ProtectedIssue.RealEstateContract();
+            bigContract.SetNetValue(120_000);
+            Console.WriteLine($"Contract value: {bigContract.Value} EUR");
+            
+            if (bigContract.Category.ToLower() == "vip")
+            {
+                Console.WriteLine("Attention. VIP contract.");
+            }
         }
     }
 
