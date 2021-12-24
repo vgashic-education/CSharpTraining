@@ -1,6 +1,5 @@
-﻿using System;
-using CS.AccesModifiers;
-using CS.Shared;
+﻿using CS.Shared;
+using System;
 
 namespace CS.AccesModifiers
 {
