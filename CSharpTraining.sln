@@ -5,11 +5,13 @@ VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.AccesModifiers", "CS.AccesModifiers\CS.AccesModifiers.csproj", "{17A48A5B-4887-45E5-8164-FC1D5EE1EE67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.Shared", "CS.Shared\CS.Shared.csproj", "{3AE42CE5-522B-428A-B45D-9FF713BFA552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.Shared", "CS.Shared\CS.Shared.csproj", "{3AE42CE5-522B-428A-B45D-9FF713BFA552}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.ConstructorInheritance", "CS.ConstructorInheritance\CS.ConstructorInheritance.csproj", "{497526F9-76F7-422F-A785-BF1996DFB61B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.ConstructorInheritance", "CS.ConstructorInheritance\CS.ConstructorInheritance.csproj", "{497526F9-76F7-422F-A785-BF1996DFB61B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.UpcastingDowncasting", "CS.UpcastingDowncasting\CS.UpcastingDowncasting.csproj", "{BF89F47B-E5BC-4363-B513-3D20C7A774F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.UpcastingDowncasting", "CS.UpcastingDowncasting\CS.UpcastingDowncasting.csproj", "{BF89F47B-E5BC-4363-B513-3D20C7A774F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.BoxingUnboxing", "CS.BoxingUnboxing\CS.BoxingUnboxing.csproj", "{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BF89F47B-E5BC-4363-B513-3D20C7A774F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF89F47B-E5BC-4363-B513-3D20C7A774F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF89F47B-E5BC-4363-B513-3D20C7A774F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
