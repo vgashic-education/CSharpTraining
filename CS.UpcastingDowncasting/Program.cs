@@ -43,6 +43,8 @@ namespace CS.UpcastingDowncasting
                 var person = customer as Person;
                 var company = customer as Company;
 
+
+
                 if (person != null)
                 {
                     Console.WriteLine($"Name: {person.FirstName} {(hideSensitiveData ? "*****" : person.LastName)}");

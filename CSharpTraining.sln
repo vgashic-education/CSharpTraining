@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.ConstructorInheritance",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.UpcastingDowncasting", "CS.UpcastingDowncasting\CS.UpcastingDowncasting.csproj", "{BF89F47B-E5BC-4363-B513-3D20C7A774F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.BoxingUnboxing", "CS.BoxingUnboxing\CS.BoxingUnboxing.csproj", "{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.BoxingUnboxing", "CS.BoxingUnboxing\CS.BoxingUnboxing.csproj", "{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.Overriding", "CS.Overriding\CS.Overriding.csproj", "{E30F0560-6933-4F08-B516-662AB4B2A12E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE5622B-EE3A-4602-91B8-5FA0B0569A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30F0560-6933-4F08-B516-662AB4B2A12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30F0560-6933-4F08-B516-662AB4B2A12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30F0560-6933-4F08-B516-662AB4B2A12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E30F0560-6933-4F08-B516-662AB4B2A12E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

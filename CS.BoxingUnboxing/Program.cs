@@ -11,7 +11,7 @@ namespace CS.BoxingUnboxing
 
             list.Add(123); // boxing
             list.Add(Math.PI); // boxing
-            list.Add("bla bla bla"); // no boxing here
+            list.Add("bla bla bla"); // no boxing here (string is already reference type)
             list.Add(33); // boxing
             list.Add(12m); // boxing
             list.Add(DateTime.Now); // boxing
