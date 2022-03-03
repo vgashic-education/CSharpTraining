@@ -38,6 +38,8 @@ namespace CS.UpcastingDowncasting
         {
             foreach (var customer in customers)
             {
+                // downcast to derived type
+                // if cast is unsuccessful, object will be null
                 var person = customer as Person;
                 var company = customer as Company;
 
